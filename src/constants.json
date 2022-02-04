@@ -1,0 +1,227 @@
+{
+  "navs": [
+    {
+      "name": "PROJECT HIGHLIGHTS",
+      "link": "#project"
+    },
+    {
+      "name": "FLOOR PLANS",
+      "link": "#floor"
+    },
+    {
+      "name": "GALLERY",
+      "link": "#gallery"
+    },
+    {
+      "name": "HOW TO APPLY",
+      "link": "#how"
+    }
+  ],
+  "page1": {
+    "banner_wrap": "/assets/images/banner-img.png",
+    "address": {
+      "street": "185 BROADWAY",
+      "state": "Paterson, NJ 07505"
+    },
+    "oneBedRoom": {
+      "price": "$1,650",
+      "area": "600 Sq. Ft and up"
+    },
+    "twoBedRoom": {
+      "price": "$2,000",
+      "area": "856 Sq. Ft and up"
+    },
+    "project": {
+      "highlight": [
+        "Centrally located near downtown Paterson, 185 Broadway is a fresh apartment complex that offers one and two bedroom apartments.",
+        "With laundry facilities, walk-in closet and HVAC to keep you cool during summer months, it's perfect for anyone looking for easy access to public transportation, local shops and groceries, museums, schools, churches and more."
+      ]
+    },
+    "floor": {
+      "content": "Comfortable, modern – one and two bedroom residences have ample storage, contemporary appliances and materials, and HVAC! Individual units vary, but most are similar in layout to what is shown below.",
+      "oneBedroom": "/assets/images/OneBR.svg",
+      "twoBedroom": "/assets/images/TwoBR.svg"
+    },
+    "neighborhood": {
+      "title": ["NEARBY", "PLACES"],
+      "content": "Live here. Go anywhere. 185 Broadway is ideally located a quick walk to the train stop and close to schools, restaurants, downtown and more. The soon to be fully renovated Hinchliffe Stadium is also nearby."
+    },
+    "locations": [
+      {
+        "link": "https://goo.gl/maps/LPdaSqAp9tnB48w89",
+        "src": "/assets/images/img-1.png",
+        "name": "Paterson Station – 0.4 miles"
+      },
+      {
+        "link": "javascript:void(0)",
+        "src": "/assets/images/img-2.png",
+        "name": "Proximity of I 80 Entrance Ramp – 0.8 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/3tbD5U9vUwhDZgeb9",
+        "src": "/assets/images/img-3.png",
+        "name": "Costambar (Domincan Restaurant) – 1.3 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/4bV8aqQGcNPWWsvV9",
+        "src": "/assets/images/img-4.png",
+        "name": "Broadway Pizza – 0.3 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/AhwvSKBLmb3bHRwN8",
+        "src": "/assets/images/img-5.png",
+        "name": "Passaic County Community College – 0.1 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/EtWLULdZuDbh5awa9",
+        "src": "/assets/images/img-6.png",
+        "name": "Hinchliffe Stadium – 1.1 miles"
+      }
+    ],
+    "projectListLeft": [
+      {
+        "name": "24/7 video surveillance"
+      },
+      {
+        "name": "Optional paid parking spot"
+      },
+      {
+        "name": "Bike storage"
+      },
+      {
+        "name": "Entrance lobby"
+      },
+      {
+        "name": "Package room"
+      }
+    ],
+    "projectListRight": [
+      {
+        "name": "HVAC"
+      },
+      {
+        "name": "Quartz counters"
+      },
+      {
+        "name": "Stainless steel appliances"
+      },
+      {
+        "name": "Gas stove"
+      },
+      {
+        "name": "Vinyl flooring"
+      }
+    ]
+  },
+  "page2": {
+    "banner_wrap": "/assets/images/banner.webp",
+    "address": {
+      "street": "425 11th AVENUE",
+      "state": "Paterson, NJ 07514"
+    },
+    "oneBedRoom": {
+      "price": "$1,700",
+      "area": "604 Sq. Ft and up"
+    },
+    "twoBedRoom": {                          
+      "price": "$2,000",
+      "area": "915 Sq. Ft and up"
+    },
+    "project": {
+      "highlight": [
+        "Taking applications now. Open 6/15. Located in Paterson’s East Side, 425 11th Ave has a central community area on each floor and 24/7 video security for added safety.",
+        "This modern apartment complex offers one and two bedroom apartments that come with walk-in closets for personal belongings and HVAC systems to keep you cool during summer months!"
+      ]
+    },
+    "floor": {
+      "content": "Comfortable, modern, one and two bedroom residences have ample storage, contemporary appliances and materials, and HVAC!  Individual units vary, but most are similar in layout to what is shown below.",
+      "oneBedroom": "/assets/images/onefloorplan.svg",
+      "twoBedroom": "/assets/images/twofloorplan.svg"
+    },
+    "neighborhood": {
+      "title": ["THE", "NEIGHBORHOOD"],
+      "content": "Convenient to highways and public transportation into NYC 425 11th Ave is located in Paterson’s East Side district. Walking distance to shopping and close to Eastside Park."
+    },
+    "locations": [
+      {
+        "link": "https://goo.gl/maps/LPdaSqAp9tnB48w89",
+        "src": "/assets/images/img-1.png",
+        "name": "Paterson Station – 1.4 miles"
+      },
+      {
+        "link": "javascript:void(0)",
+        "src": "/assets/images/img-2.png",
+        "name": "Freeway Entrance to NYC - 2 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/EtWLULdZuDbh5awa9",
+        "src": "/assets/images/neigh3.webp",
+        "name": "Eastside Park – 1 mile"
+      },
+      {
+        "link": "https://goo.gl/maps/3tbD5U9vUwhDZgeb9",
+        "src": "/assets/images/neigh4.webp",
+        "name": "2000 Restaurant – 0.3 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/4bV8aqQGcNPWWsvV9",
+        "src": "/assets/images/neigh5.webp",
+        "name": "Paterson Public School 26 –  0.4 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/AhwvSKBLmb3bHRwN8",
+        "src": "/assets/images/neigh6.webp",
+        "name": "Memorial Pool – 1.7 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/EtWLULdZuDbh5awa9",
+        "src": "/assets/images/neigh7.webp",
+        "name": "Dunkin Donuts– 0.5 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/EtWLULdZuDbh5awa9",
+        "src": "/assets/images/neigh8.webp",
+        "name": "CTown Supermarket –  0.5 miles"
+      },
+      {
+        "link": "https://goo.gl/maps/EtWLULdZuDbh5awa9",
+        "src": "/assets/images/neigh9.webp",
+        "name": "Barnert Hospital – 0.6 miles"
+      }
+    ],
+    "projectListLeft": [
+      {
+        "name": "Community area on each floor"
+      },
+      {
+        "name": "24/7 video surveillance"
+      },
+      {
+        "name": "Optional paid parking spot"
+      },
+      {
+        "name": "Entrance lobby"
+      },
+      {
+        "name": "Package room"
+      }
+    ],
+    "projectListRight": [
+      {
+        "name": "HVAC"
+      },
+      {
+        "name": "Quartz counters"
+      },
+      {
+        "name": "Stainless steel appliances"
+      },
+      {
+        "name": "Gas stove"
+      },
+      {
+        "name": "Vinyl flooring"
+      }
+    ]
+  }
+}
