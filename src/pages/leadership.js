@@ -4,10 +4,10 @@ import facebook from "../assets/images/facebook.png";
 import instagram from "../assets/images/instagram.png";
 import linkedin from "../assets/images/linkedin.png";
 import pinterest from "../assets/images/pinterest.png";
-import aboutusmobileimg from "../assets/images/about-us-mobile-img.jpg";
-import aboutusdesktopimg from "../assets/images/about-us-desktop-img.jpg";
+// import dp from "../assets/images/dp.png";
+
 import "../assets/css/home.css";
-function About() {
+function Leadership() {
   return (
     <div className="main">
       <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom py-lg-4">
@@ -63,37 +63,45 @@ function About() {
           </div>
         </div>
       </nav>
-      <section className="content-wrapper about-us">
-        <header className="container">
-          <h1 className="text-center page-heading">About Us</h1>
-
-        </header>
-        <div className="about-us-img">
-          <img src={aboutusmobileimg} alt="about us mobile img" className="mobile-img" />
-          <img src={aboutusdesktopimg} alt="about us desktop img" className="desktop-img" />
+      <section className="content-wrapper leadership">
+        <div className="border-bottom">
+          <header className="container">
+            <h1 className="text-center page-heading">Leadership</h1>
+          </header>
         </div>
-        <div className="container about-us-content">
-          <h2 className="text-center">Our mission is to rebuild hope in American neighborhoods, one home at a time.</h2>
-          <p>ANIA Management is a privately-owned company that specializes in property management, owner/investor, construction and maintenance services. ANIA seeks to better communities by hiring locally and building relationships with businesses and community leaders. The property management and leasing team continues to keep properties occupied and delivers a quality experience to tenants.</p>
-          <div className="stats">
-            <div>
-              <strong>4,500+
-              </strong>
-              <small>units</small>
+
+        <div className="container ">
+          <div className="leadership-content">
+
+            <div className="user">
+              <div className="user-pic">
+                {/* <img src={propertyone} alt="user pic" /> */}
+              </div>
+              <div className="user-details">
+                <h6>Matthew Florio
+                </h6>
+                <strong>President
+                </strong>
+              </div>
+              <p className="user-description">
+                An esteemed real estate developer, sports enthusiast, and a philanthropist. He brings over fifteen years of real estate experience and relationships, acquiring and developing over 4,500 units. Mr. Florio’s real estate holdings are over 700 million.
+              </p>
             </div>
-            <div>
-              <strong>250+
-              </strong>
-              <small>employees</small>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Matthew Florio
+                </h6>
+                <strong>President
+                </strong>
+              </div>
+              <p className="user-description">
+                An esteemed real estate developer, sports enthusiast, and a philanthropist. He brings over fifteen years of real estate experience and relationships, acquiring and developing over 4,500 units. Mr. Florio’s real estate holdings are over 700 million.
+              </p>
             </div>
-            <div>
-              <strong>25+ years
-              </strong>
-              <small>as property managers</small>
-            </div>
+
           </div>
-          <p>Currently, ANIA is working on revitalizing neighborhoods Paterson, NJ. In addition to building and maintaining modern properties with 24/7 security surveillance, ANIA is involved in community programs which aim to educate and improve the lives of the residents they serve. </p>
-          <p>With headquarters in Paterson, NJ, ANIA has over 250 employees and manages over 4,500 units. ANIA also owns and operates properties in New Jersey, Maryland, Tennessee and Georgia.</p>
         </div>
 
       </section>
@@ -186,4 +194,4 @@ function About() {
   );
 }
 
-export default About;
+export default Leadership;

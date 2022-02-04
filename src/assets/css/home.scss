@@ -638,27 +638,34 @@ button:focus {
 
 
 /* about us page css */
-.about-us {
-  -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  --text-color: #333333;
-  color: var(--text-color);
-  .container{
-    max-width: 804px;
-  }
-  h1,h2{
-    font-weight: 400;
-  }
-  
-  h1{
-    color: var(--color-theme);
+
+.page-heading{
+  font-weight: 400;
+  color: var(--color-theme);
     font-size: 32px;
     margin: 2rem 0;
     @include bp.media-breakpoint-up(lg){
       font-size: 42px;
     }
+}
+
+.about-us, .leadership{
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --text-color: #333333;
+  color: var(--text-color);
+}
+
+.about-us { 
+  .container{
+    max-width: 804px;
   }
+  h2{
+    font-weight: 400;
+  }
+  
+  
   h2{
     font-size: 22px;
     margin: 1.5rem 0;
@@ -674,7 +681,7 @@ button:focus {
       margin-bottom: 1.5rem;
     }
   }
-}
+} 
 .about-us-img{
 
   height: 370px;
@@ -747,5 +754,66 @@ button:focus {
   @include bp.media-breakpoint-up(lg){
     padding-top: 3rem ;
     padding-bottom: 5rem ;
+  }
+}
+/*leadership page css */
+.leadership-content{
+  padding: 2.5rem 0;
+  display: grid;
+  gap: 34px;
+  @include bp.media-breakpoint-up(lg){
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+.user{
+  display: grid;
+  grid-template-columns: 123px 1fr;
+  gap: 10px;
+  grid-template-areas: "pic details" 
+  "description description";
+  @include  bp.media-breakpoint-up(sm){
+    grid-template-columns: 176px 1fr;
+    grid-template-areas: "pic details" 
+  "pic description";
+  .user-pic {
+    grid-area: pic;
+    width: 176px;
+    height: 190px;
+  }
+  }
+}
+
+.user-pic {
+    width: 123px;
+    height: 133px;
+    background-color: #c4c4c4;
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.user-description{
+  grid-area: description;
+  margin-bottom: 0;
+  margin-top: 8px;
+  line-height:1.375 ;
+    @include bp.media-breakpoint-up(lg){
+      line-height:1.25 ;
+    }
+}
+
+.user-details{
+  h6{
+    color: var(--color-theme);
+    font:500 18px var(--medium-font);
+    @include  bp.media-breakpoint-up(lg){
+        font-size: 24px;
+    }
+  }
+  @include  bp.media-breakpoint-down(sm){
+    display: flex;
+    flex-direction: column;
   }
 }
