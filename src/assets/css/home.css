@@ -800,10 +800,17 @@ button:focus {
 }
 @media (min-width: 992px) {
   .leadership-content {
+    padding: 7.3rem 0;
+    column-gap: 44px;
     grid-template-columns: 1fr 1fr;
   }
 }
 
+@media (min-width: 992px) {
+  .leadership-content-container {
+    max-width: 1178px;
+  }
+}
 .user {
   display: grid;
   grid-template-columns: 123px 1fr;
@@ -813,12 +820,18 @@ button:focus {
 @media (min-width: 576px) {
   .user {
     grid-template-columns: 176px 1fr;
-    grid-template-areas: "pic details" "pic description";
+    grid-template-areas: "pic details" "pic description" "pic .";
+    align-content: start;
   }
   .user .user-pic {
     grid-area: pic;
     width: 176px;
     height: 190px;
+  }
+}
+@media (min-width: 992px) {
+  .user {
+    gap: 16px;
   }
 }
 
@@ -839,6 +852,11 @@ button:focus {
   margin-top: 8px;
   line-height: 1.375;
 }
+@media (min-width: 576px) {
+  .user-description {
+    margin-top: 0;
+  }
+}
 @media (min-width: 992px) {
   .user-description {
     line-height: 1.25;
@@ -848,10 +866,17 @@ button:focus {
 .user-details h6 {
   color: var(--color-theme);
   font: 500 18px var(--medium-font);
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 @media (min-width: 992px) {
   .user-details h6 {
     font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  .user-details strong {
+    font-size: 18px;
   }
 }
 @media (max-width: 575.98px) {

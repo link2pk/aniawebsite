@@ -70,7 +70,7 @@ function Leadership() {
           </header>
         </div>
 
-        <div className="container ">
+        <div className="container leadership-content-container">
           <div className="leadership-content">
 
             <div className="user">
@@ -91,16 +91,102 @@ function Leadership() {
               <div className="user-pic">
               </div>
               <div className="user-details">
-                <h6>Matthew Florio
+                <h6>Charles Florio
                 </h6>
-                <strong>President
+                <strong>CEO
                 </strong>
               </div>
               <p className="user-description">
-                An esteemed real estate developer, sports enthusiast, and a philanthropist. He brings over fifteen years of real estate experience and relationships, acquiring and developing over 4,500 units. Mr. Florio’s real estate holdings are over 700 million.
+                Charles Florio is involved in all aspects of running the business. His vision helped the company grow to 250 employees, 4,500 units and expand across four states.
               </p>
             </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Erik Yu</h6>
+                <strong>Controller</strong>
+              </div>
+              <p className="user-description">
+                Erik Yu provides oversight for the company’s accounting operation, cash management and
+                financial planning.
+              </p>
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Daniel Gonzalez</h6>
+                <strong>Vice President (Acquisitions)</strong>
+              </div>
+              <p className="user-description">
+                Daniel Gonzalez is responsible for property acquisitions, ground-up development and ensuring the companies operational efficiencies.
 
+              </p>
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Jennifer Martinez
+                </h6>
+                <strong>Office Administrator
+                </strong>
+              </div>
+
+
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Marie Castenada
+                </h6>
+                <strong>Sr. Property Manager</strong>
+              </div>
+
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Jonathan Then
+                </h6>
+                <strong>Property Manager</strong>
+              </div>
+
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Alex Kasperowicz</h6>
+                <strong>Property Manager
+                </strong>
+              </div>
+
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Madelyn Rijo</h6>
+                <strong>Property Manager
+                </strong>
+              </div>
+
+            </div>
+            <div className="user">
+              <div className="user-pic">
+              </div>
+              <div className="user-details">
+                <h6>Isreily Cruz
+                </h6>
+                <strong>Property Manager
+                </strong>
+              </div>
+
+            </div>
           </div>
         </div>
 
